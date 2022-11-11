@@ -1,8 +1,8 @@
 Práctica 3 - Indirect Group Communication
 Joan Pascual Alcaraz
 
-En una estructura de comunicación basada en sockets de pub/sub, el objetivo era 
-modificar el código para permitir conexiones de multiples clientes.
+En una estructura de comunicación basada en sockets de pub/sub con un broker, 
+el objetivo era modificar el código para permitir conexiones de multiples clientes.
 
 En un primer intento, quería que fuera el broker quien comprobara si el puerto 
 al que el cliente se quiere conectar ya estaba en uso, y en tal caso enviar al 
